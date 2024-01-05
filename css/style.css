@@ -1,0 +1,46 @@
+@import url(./header.css);
+@import url(./normalizew.css);
+@import url(./footer.css);
+@import url(./main.css);
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik;
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+:root {
+  --desc-color: #4f5665;
+  --title-color: #0b132a;
+  --button-color: #f53838;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+button {
+  border: none;
+  background-color: none;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: #fff;
+  margin-bottom: 136.4px;
+  padding-bottom: 45px;
+}
